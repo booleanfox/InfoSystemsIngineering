@@ -55,7 +55,7 @@ class StrategyC: Strategy {
         context.update(strategy: StrategyB())
         context.doSorting()
 
-        print("\nClient: And now i want to shuffe everything.")
+        print("\nClient: And now i want to shuffle everything.")
         context.update(strategy: StrategyC())
         context.doSorting()
     }
